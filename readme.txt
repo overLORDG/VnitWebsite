@@ -1,0 +1,1 @@
+This is a replica of VNIT website with three working pages , HOME, PLACEMENT and PAYMENT

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VNIT Website</title>
+  <link rel="stylesheet" href="styles.css">
+  
+  
+</head>
+<body>
+
+    <div class="top-bar" style="margin-top: 0px;padding-top:0px">
+      <div class="logo">
+        <img src="images/VNIT_logo.png" alt="VNIT Logo" style="margin-left:23px;width: 130px; margin-bottom: 0px;">
+      </div>
+      <div class="institute-name" style="margin-top: 0;">
+        <h1>Visvesvaraya National Institute of Technology</h1>
+        <p>विश्वेश्वरय्या नेशनल इंस्टीट्यूट ऑफ टेक्नोलॉजी</p>
+      </div>
+      <div class="language-selection">
+        <select>
+          <option value="en">English</option>
+          <option value="hi">Hindi</option>
+          <!-- Add other language options -->
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <header>
+</header>
+<script src="javas.js"></script> 
+
+<style>
+    h2 {
+      color: black;
+      text-align: center;
+    }
+    #paymentCategory {
+      width: 800px;
+      height: 40px;
+      margin: 0 auto;
+      display: block;
+      transition: box-shadow 0.3s ease-in-out;
+    }
+    #paymentCategory:focus {
+      box-shadow: 0 0 5px 2px rgb(164, 255, 237);
+      outline: none;
+    }
+    #submitBtn {
+      width: 150px;
+      height: 40px;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      display: block;
+      margin: 20px auto;
+      cursor: pointer;
+    }
+    #submitBtn:hover {
+      background-color: darkgreen;
+    }
+
+
+
+
+    .menu {
+      display: flex;
+      justify-content: center;
+    }
+
+    .menu-item {
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 5px;
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none; /* Remove default underline for links */
+    }
+
+    .home {
+      background-color: #3498db;
+    }
+
+    .reprint {
+      background-color: #27ae60;
+    }
+
+    .payment {
+      background-color: #e74c3c;
+    }
+
+
+
+  </style>
+  <div class="menu">
+    <a href="vnitHomePage.html" class="menu-item home">Home</a>
+    <a href="#" class="menu-item reprint">Re-print Receipt</a>
+    <a href="#" class="menu-item payment">Check Payment Status</a>
+  </div>
+
+<h2 style="color: black; text-align: center;">Select Payment Category</h2>
+
+<select id="paymentCategory" style="width: 800px; height: 40px; margin: 0 auto; display: block;">
+  <option value="" disabled selected hidden>Select choice</option>
+  <option value="item1">Admission/Application Fee</option>
+  <option value="item2">Courses/Seminar/Workshop/</option>
+  <option value="item3">Hostel Fee</option>
+  <option value="item4">Conferences</option>
+  <option value="item5">Vnit Accommodation</option>
+  <option value="item6">Library Fee</option>
+</select>
+<button type="submit" id="submitBtn">Submit</button>
+
+  <style>
+    .note {
+      background-color: #f5f5f5; /* Background color */
+      padding: 20px; /* Add padding for spacing */
+      border-radius: 8px; /* Rounded corners */
+      width: 70%; /* Set the width as needed */
+      margin: 0 auto; /* Center the div horizontally */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow */
+    }
+
+    .note h2 {
+      text-align: center; /* Center-align the heading */
+    }
+
+    .note ul {
+      margin-top: 10px; /* Add spacing */
+    }
+
+    .note li {
+      margin-bottom: 8px; /* Add spacing between bullet points */
+    }
+  </style>
+</head>
+<body>
+  <div class="note">
+    <h2>Note:</h2>
+    <ul>
+      <li>Kindly preserve the copy of receipt for future reference.</li>
+      <li>
+        Mandatory fields are marked with an asterisk (*)</li>
+      <li>The payment structure document if available will contain detailed
+         instructions about the online payment process.</li>
+         <li>Date specified(if any) should be in the format of 'yyyymmdd'.
+             Eg., 20211201</li>
+    </ul>
+  </div>
+
+
+<footer style="position: fixed; bottom: 0; width: 100%; text-align: center; background-color: #000000; padding: 10px;">
+    <!-- <h2>About VNIT</h2> -->
+    <p>Website Policy | Copyright Policy | Privacy Policy
+      © 2023 | Developed by Computer Centre, CSED, VNIT, Nagpur</p>
+    <p>&copy; 2023 VNIT. All rights reserved.</p>
+</footer>
+
+</html>
